@@ -1,0 +1,362 @@
+<html>
+    <head>
+        <title>E Hospital</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/MainPageStyle.css">
+    </head>
+    <body>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event,'home')" id="home_button">Home</button>
+            <button class="tablinks" onclick="openTab(event,'dashboard')" id="dashboard_button">Dashboard</button>
+            <button class="tablinks" onclick="openTab(event,'appointment')" id="appointment_button">Make Appointment</button>
+            <button class="tablinks" onclick="openTab(event,'patient_details')" id="patient_details_button">Patient Details</button>
+            <a target="_blank" href="https://www.lionsbloodbank.net/"><button  >Blood Bank</button></a>
+            <a target="_blank" href="https://www.zhl.org.in/book-an-ambulance/"><button>Get Ambulance</button></a>
+            <button class="tablinks" onclick="openTab(event,'login')" id="login_button">Login</button>
+            <button class="tablinks" onclick="openTab(event,'signup')" id="signup_button">Signup</button>
+            <a href="MainPage.html"><button style="float: right;" >E-Hospital</button></a>
+        </div>
+        <div id="home" class="tabcontent" style="padding: 0%;">
+            <div class="slideshow-container">
+                <div class="mySlides fade slider1" style="background-color: red;">
+                    <div class="text1">Welcome to E-Hospital</div> 
+                </div>
+              
+                <div class="mySlides fade slider2" style="background-color: aqua;">
+                    <div class="text2">Make Your Appointment Now! <br><br>
+                        <input type="button" onclick="openTab(event,'appointment')" value="Click Here">
+                    </div> 
+                </div>
+              
+                <div class="mySlides fade slider3" style="background-color: grey;">
+                    <div class="text3">Check Patient Details <br><br>
+                        <input type="button" style="margin-left: 100px;" onclick="openTab(event,'patient_details')" value="Click Here">
+                    </div> 
+                </div>
+              
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <!--About EHospital-->
+            <div  class="textcontainer">
+                <div class="title"><h2>E-Hospital Systems</h2></div>
+                <div class="description">
+                E-Hospital Systems is a customizable, comprehensive, and integrated Hospital Management System designed
+                to manage all hospital operations. The ideal client base for eHospital is Healthcare facilities,
+                multi-specialty clinics, and medical practitioners. Multi-Location functionality allows your hospitals,
+                satellite clinics, and medical stores to be interconnected. Traditional approaches encompass paper-based
+                information processing as well as resident work position and mobile data acquisition and presentation.
+                The customizable alert software sends the text, IM, and email reminders and improves the quality of patient
+                care. This hospital management software helps you to be aware of revenue streams, patient records, and other
+                critical metrics in real-time at your fingertips. It allows electronic sharing of patient records with other
+                providers and medical applications and manages the overall health of patients such as patients and providers
+                can see lab results and history online, securely chat with providers, schedule the next appointment. Our EHR
+                Software is user-friendly and with no error that is usually associated with handwriting. Pulling up server or
+                cloud information is now quickly done with new technological computer systems, yielding optimal performance.
+                Patients can find doctors and book online appointments based on specialty, rating, fees, and availability.
+                Organizing doctor schedules, collating patient notes, and handling payment is effortless. Doctors and Patients
+                can check the calendar on mobile phones and live less chaotic lives. Hospital Management System Software is 
+                available for on-premise and on-cloud installations. We developed eHospital Systems - Hospital Management 
+                Information System based on the best practices around the world.
+                </div>
+            </div>
+            <hr style="width: 90%;">
+            <div class="textcontainer">
+                <div class="title"><h3>What is a Hospital Management System?</h3></div>
+                <div class="description">
+                    A Hospital Management System is an integrated information system for managing all 
+                aspects of a hospital’s operations such as medical, financial, administrative, legal, and compliance. It 
+                includes electronic health records, business intelligence, and revenue cycle management. Hospitals and 
+                healthcare facilities improve the quality of healthcare services, reduce operating costs, and improve 
+                the revenue cycle by using such hospital management systems. Hospital Management System typically includes 
+                Outpatient and Inpatient Management, Pharmacy, Laboratory, Radiology, Inventory, eClaim, Mobile Apps, Tablet 
+                Versions, Online Scheduling, Secured Messaging, Doctor and Patient Portals, Accounting, HR/Payroll, Blood Bank, 
+                Mortuary, Alert Software, Dietary, Feedback, Lab Machines and Biometric Integration, HL7/Integrated PACS, and 
+                Business Intelligence.
+                </div>
+            </div>
+            <hr style="width: 90%;">
+            <div class="textcontainer">
+                <div class="title"><h3>What are benefits of a Hospital Management System?</h3></div>
+                <div class="description">
+                <ul style="list-style-image: url(../Pictures/hand.png);">
+                <li>The Hospital Management Information System Software allows easy access to patient data to generate various records, 
+                including classification based on demographic, gender, age, and so on. It is especially beneficial at the ambulatory point, 
+                hence enhancing continuity of care. Internet-based access improves the ability to access such data remotely.</li>
+                <li>It helps as a decision support system for the hospital authorities for developing comprehensive health care policies.</li>
+                <li>It efficiently engenders the running of finance, the diet of patients, and also the distribution of medical aid. It gives 
+                a vivid picture of future hospital growth.</li>
+                <li>It reflects an improved drug usage monitoring system, including its effectiveness. It relegates adverse drug interaction 
+                to the background and gives a push to appropriate pharmaceutical utilization.</li>
+                <li>Integrated Inventory Management keeps track of all hospital stocks from medicines to linens and helps you keep the optimum 
+                level of stock all the time. It also minimizes the lost stock due to theft and misplacement.</li>
+                <li>It enhances information integrity by a reduction in transcription errors and duplication of information entries.</li>
+                <li>Hospital Management System is easy to use and eliminates errors caused by handwriting.</li>
+                <li>The latest technology gives perfect performance to pull up information from hosted or cloud servers.</li>
+                <li>It provides all data in a single platform, hence enables Business Intelligence Module to provide valuable insights into
+                hospital operations and the quality of patient care.</li>
+                <li>It enhances the overall health care experience in a healthcare facility.</li>
+                <li>It improves the communication and interaction of doctors with their patients.</li>
+                <li>It reduces expenses of an organization because of less paperwork, improved safety, and reduced duplication of testing.</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div id="dashboard" class="tabcontent">
+            <div class="container" style="top: 10%;transform: translateX(-50%);text-align: left;">
+                <center><b><font size = 6 face = "calibri">Dashboard</font></b></center>
+                <p>
+                    <ul class="results">				
+                        <li class="result">
+                            <div class="result__image"><a href="https://www.cancer.org/" rel="nofollow"><img src="https://www.refseek.com/data/logos/acs.png" alt="American Cancer Society"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://www.cancer.org/">American Cancer Society</a></div>
+                                <div class="result__description">Fighting cancer with research, education, patient care, and rehabilitation.</div>
+                                <div class="result__details"><span class="result__domain">cancer.org</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="https://www.cdc.gov/" rel="nofollow"><img src="https://www.refseek.com/data/logos/cdc.png" alt="CDC"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://www.cdc.gov/" rel="nofollow">CDC</a></div>
+                                <div class="result__description">Fights disease and supports communities and citizens to do the same.</div>
+                                <div class="result__details"><span class="result__domain">cdc.gov</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="https://www.hhs.gov/" rel="nofollow"><img src="https://www.refseek.com/data/logos/hhs.png" alt="Department of Health and Human Services"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://www.hhs.gov/" rel="nofollow">Department of Health and Human Services</a></div>
+                                <div class="result__description">Principal agency for protecting the health of U.S. citizens.</div>
+                                <div class="result__details"><span class="result__domain">hhs.gov</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="https://www.drugs.com/" rel="nofollow"><img src="https://www.refseek.com/data/logos/drugscom.png" alt="Drugs.com"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://www.drugs.com/">Drugs.com</a></div>
+                                <div class="result__description">Easy-to-read drug information and useful online tools including a pill identifier.</div>
+                                <div class="result__details"><span class="result__domain">drugs.com</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="https://online.epocrates.com" rel="nofollow"><img src="https://www.refseek.com/data/logos/epocrates.png" alt="Epocrates"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://online.epocrates.com">Epocrates</a></div>
+                                <div class="result__description">Point of care diagnostic and treatment information for doctors. Subscription required.</div>
+                                <div class="result__details"><span class="result__domain">epocrates.com</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="https://www.everydayhealth.com/" rel="nofollow"><img src="https://www.refseek.com/data/logos/everydayhealth.png" alt="Everyday Health"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://www.everydayhealth.com/" rel="nofollow">Everyday Health</a></div>
+                                <div class="result__description">Personalized health advice, tools, and communities.</div>
+                                <div class="result__details"><span class="result__domain">everydayhealth.com</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="https://www.healthline.com/" rel="nofollow"><img src="https://www.refseek.com/data/logos/healthline.png" alt="Healthline"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://www.healthline.com/" rel="nofollow">Healthline</a></div>
+                                <div class="result__description">Condition and procedure topics, symptom checker, and pill identifier.</div>
+                                <div class="result__details"><span class="result__domain">healthline.com</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="https://www.mayoclinic.org/" rel="nofollow"><img src="https://www.refseek.com/data/logos/mayoclinic.png" alt="Mayo Clinic"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://www.mayoclinic.org/" rel="nofollow">Mayo Clinic</a></div>
+                                <div class="result__description">Award-winning medical and health information for healthy living.</div>
+                                <div class="result__details"><span class="result__domain">mayoclinic.org</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="https://www.medicinenet.com/" rel="nofollow"><img src="https://www.refseek.com/data/logos/medicinenet.png" alt="MedicineNet"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://www.medicinenet.com/" rel="nofollow">MedicineNet</a></div>
+                                <div class="result__description">Authoritative medical information for consumers.</div>
+                                <div class="result__details"><span class="result__domain">medicinenet.com</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="https://medlineplus.gov" rel="nofollow"><img src="https://www.refseek.com/data/logos/medline.png" alt="Medline Plus"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://medlineplus.gov" rel="nofollow">Medline Plus</a></div>
+                                <div class="result__description">Diseases, symptoms, injuries, and more with photographs and illustrations.</div>
+                                <div class="result__details"><span class="result__domain">medlineplus.gov</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="https://www.medpagetoday.com/" rel="nofollow"><img src="https://www.refseek.com/data/logos/medpage.png" alt="Medpage Today"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://www.medpagetoday.com/" rel="nofollow">Medpage Today</a></div>
+                                <div class="result__description">Latest clinical and policy coverage geared towards health care professionals.</div>
+                                <div class="result__details"><span class="result__domain">medpagetoday.com</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="https://www.medscape.com/" rel="nofollow"><img src="https://www.refseek.com/data/logos/medscape.png" alt="Medscape"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://www.medscape.com/" rel="nofollow">Medscape</a></div>
+                                <div class="result__description">Medical information for specialists, physicians, and industry professionals.</div>
+                                <div class="result__details"><span class="result__domain">medscape.com</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="http://www.merckmanuals.com/home" rel="nofollow"><img src="https://www.refseek.com/data/logos/merckmanual.png" alt="Merck Manuals"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="http://www.merckmanuals.com/home" rel="nofollow">Merck Manuals</a></div>
+                                <div class="result__description">The world's most widely-used medical guides, available online.</div>
+                                <div class="result__details"><span class="result__domain">merckmanuals.com</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="https://www.nih.gov/" rel="nofollow"><img src="https://www.refseek.com/data/logos/nih.png" alt="NIH"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://www.nih.gov/" rel="nofollow">NIH</a></div>
+                                <div class="result__description">Focal point for medical research in the United States.</div>
+                                <div class="result__details"><span class="result__domain">nih.gov</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="https://openmd.com" rel="nofollow"><img src="https://www.refseek.com/data/logos/openmd.png" alt="OpenMD"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://openmd.com">OpenMD</a></div>
+                                <div class="result__description">Health search engine spanning thousands of medical organizations and government databases.</div>
+                                <div class="result__details"><span class="result__domain">openmd</span> - Also see: <a href="https://openmd.com/directory">Health Site Directory</a></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="https://www.rxlist.com/" rel="nofollow"><img src="https://www.refseek.com/data/logos/rxlist.png" alt="RxList"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://www.rxlist.com/" rel="nofollow">RxList</a></div>
+                                <div class="result__description">Drug information for consumers and medical health professionals.</div>
+                                <div class="result__details"><span class="result__domain">rxlist.com</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="http://www.uptodate.com/" rel="nofollow"><img src="https://www.refseek.com/data/logos/uptodate.png" alt="UpToDate"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="http://www.uptodate.com/" rel="nofollow">UpToDate</a></div>
+                                <div class="result__description">Evidence-based clinical decision support resource for health care providers.</div>
+                                <div class="result__details"><span class="result__domain">uptodate.com</span></div>
+                            </div>
+                        </li>				
+                        <li class="result">
+                            <div class="result__image"><a href="https://www.webmd.com/" rel="nofollow"><img src="https://www.refseek.com/data/logos/webmd.png" alt="WebMD"></a></div>
+                            <div class="result__snippet">
+                                <div class="result__title"><a href="https://www.webmd.com/">WebMD</a></div>
+                                <div class="result__description">Thousands of medical entries from abdomen to zygote.</div>
+                                <div class="result__details"><span class="result__domain">webmd.com</span></div>
+                            </div>
+                        </li>      
+                    </ul>
+                    <ul class="dashboard">
+                        <li><a target="_blank" href="https://www.redcrossblood.org/">American Red Cross</a></li>
+                        <li><a target="_blank" href="https://www.friends2support.org/">Find Blood Donors</a></li>
+                        <li><a target="_blank" href="https://notto.gov.in/">NOTTO</a></li>
+                        <li><a target="_blank" href="https://www.organdonor.gov/register.html">Become a organ donor</a></li>
+                        <li><a target="_blank" href="https://www.adroitinfosystems.com/products/ehospital-systems">Adroiti - eHospital</a></li>
+                        <li><a target="_blank" href="https://www.nic.in/projects/e-hospital/">NIC - National Informatic Centre</a></li>
+                        <li><a target="_blank" href="https://ehospital.nic.in/ehospitalsso/">NIC - eHospital</a></li>
+                        <li><a target="_blank" href="https://ors.gov.in/index.html">ORS - Make Appointments in Government Hospital</a></li>
+                        <li><a target="_blank" href="https://www.medlife.com/">MedLife - ePharmacy</a></li>
+                        <li><a target="_blank" href="https://www.netmeds.com/">NetMeds - India ki pharmacy</a></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div id="appointment" class="tabcontent">
+            <div class="container" style="top: 10%;transform: translateX(-50%);">
+                <form name="AppointmentForm" action="../PHP/appointment.php" method="post">
+                    <table cellpadding = 10px cellspacing = 10px>
+                        <caption><b><font size = 6 face = "calibri">Make an Appointment</font></b></caption>
+                        <tr><td><b>Patient Details:</b></td></tr>
+                        <tr><td>First Name</td><td><input type = "text" name = "firstname" id = "firstname"></td></tr>
+                        <tr><td>Middle Name</td><td><input type = "text" name = "middlename" id = "middlename"></td></tr>
+                        <tr><td>Last Name</td><td><input type = "text" name = "lastname" id = "lastname"></td></tr>
+                        <tr><td>Gender</td>
+                        <td><input type = "radio" name = "gender1" id = "gender1" value = "M" required>Male
+                        <input type = "radio" name = "gender1" id = "gender1" value = "F" required>Female</td></tr>
+                        <tr><td>Address</td><td><input type = "text" name = "address" id = "address"></td></tr>
+                        <tr><td>City</td><td><input type = "text" name = "city" id = "city"></td></tr>
+                        <tr><td>State</td><td><input type = "text" name  = "state" id = "state"></td></tr>
+                        <tr><td>Country</td><td><input type = "text" name = "country" id = "country"></td></tr>
+                        <tr><td>PIN Code</td><td><input type = "text" name = "pincode" id = "pincode"></td></tr>
+                        <tr><td>Mobile Number</td><td><input type = "text" name = "mobilenumber" id = "mobilenumber"></td></tr>
+                        <tr><td>Phone Number</td><td><input type = "text" name = "phonenumber" id = "phonenumber"></td></tr>
+                        <tr><td>Email Address</td><td><input type = "text" name = "emailid2" id = "emailid2"></td></tr>
+                        <tr><td>Date of Birth</td><td><input type = "date" name = "dob" id = "dob"></td></tr>
+                        <tr><td colspan = 2>Does the Patient have Insurance Policy ?</td></tr><td></td>
+                        <td><input type = "radio" name = "insur_policy" id = "insur_policy" value = "Y" required>Yes
+                        <input type = "radio" name = "insur_policy" id = "insur_policy" value = "N" required>No</td></tr>
+                        <tr><td colspan = 2>What is the primary medical problem or diagnosis for the appointment request ?</td></tr>
+                        <tr><td colspan = 2><textarea name = "textarea1" id = "textarea1" style="width:100%" rows = 5 cols = 50></textarea></td></tr>
+                        <tr><td><b>Appointment Preference:</b></td></tr>
+                        <tr><td>Preference 1</td><td><input type = "datetime-local" name = "pre1" id = "pre1"></td></tr>
+                        <tr><td>Preference 2</td><td><input type = "datetime-local" name = "pre2" id = "pre2"></td></tr>
+                        <tr><td colspan = 2><center><input type = "submit" value = "Make an Appointment"></center></td></tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div id="patient_details" class="tabcontent">
+            
+            <div class="container">
+                <form action="../PHP/patientdetails.php" method="POST">
+                    <table cellpadding = 10px cellspacing = 10px>
+                        <caption><b><font size = 6 face = "calibri">Patient Details</font></b></caption>
+                        <tr><td>Enter Patient ID</td><td><input type="email" name="patientid" id="patientid"></td></tr>
+                        <tr><td colspan = 2 align = "center"><input type = "submit" value = "Get Patient Details" onclick="return ValidatePatientdetails()"></td></tr>
+                    </table>
+                </form>
+            </div>
+
+        </div>
+        <div id="login" class="tabcontent">
+            <div class="container">
+                <form name="LoginForm" action="../PHP/login.php" method="POST">
+                    <table cellpadding = 10px cellspacing = 10px>
+                        <caption><b><font size = 6 face = "calibri">Login</font></b></caption>
+                        <tr><td>Enter Email</td><td><input type = "text" name = "emailid1" id = "emailid1"></td></tr>
+                        <tr><td>Enter Password</td><td><input type = "password" name = "password" id = "password"></td></tr>
+                        <tr><td colspan = 2 align = "center"><input type = "submit" onclick="return ValidateLogin()" value = "Login"></td></tr>
+                    </table>
+                </form>
+                <a onclick="document.getElementById('signup_button').click()">Click Here to Create New Account</a>
+            </div>
+        </div>
+        <div id="signup" class="tabcontent">
+            <div class="container" style="top: 10%;transform: translate(-50%);">
+                <form name="SignupForm" action="../PHP/signup.php" method="POST">
+                    <table cellpadding = 10px cellspacing = 10px>
+                        <caption><b><font size = 6 face = "calibri">Create New Account</font></b></caption>
+                        <tr><td>Enter Name</td><td><input type = "text" name = "username" id = "username"></td></tr>
+                        <tr><td>Enter Email</td><td><input type = "text" name = "emailid" id = "emailid"></td></tr>
+                        <tr><td>Select Gender</td><td>
+                        <input type = "radio" name = "gender" id = "gender" value = "M" required>Male
+                        <input type = "radio" name = "gender" id = "gender" value = "F" required>Female</td></tr>
+                        <tr><td>Enter Password</td><td><input type = "password" name = "password1" id = "password1"></td></tr>
+                        <tr><td>Confirm Password</td><td><input type = "password" name = "password2" id = "password2"></td></tr>
+                        <tr><td colspan = 2 align = "center"><input type = "submit" onclick="return ValidateSignup()" value = "Create Account"></td></tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <script type="text/javascript" src="../JS/MainPageScript.js"></script>
+        <script type="text/javascript" src="../JS/FormValidation.js"></script>
+        <script>
+            document.getElementById('home_button').click();
+        </script>
+    </body>
+</html>
+
